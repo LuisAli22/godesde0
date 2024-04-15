@@ -7,13 +7,16 @@ import (
 	"strconv"
 )
 
-func mostrarTabla(numeroDeTabla int) {
+func mostrarTabla(numeroDeTabla int) string {
+	var texto string
 	for i := 1; i <= 10; i++ {
-		fmt.Println(numeroDeTabla, " X ", i, "= ", numeroDeTabla*i)
+		texto += fmt.Sprintln(numeroDeTabla, " X ", i, "= ", numeroDeTabla*i)
 	}
+	return texto
 }
-func ObtenerNumeroYMostrarTabla() {
+func ObtenerNumeroYMostrarTabla() string {
 	scanner := bufio.NewScanner(os.Stdin)
+	var tabla string
 	for {
 		fmt.Println("Ingrese nùmero de tabla: ")
 		if scanner.Scan() {
@@ -21,9 +24,10 @@ func ObtenerNumeroYMostrarTabla() {
 			if err != nil {
 				continue
 			}
-			mostrarTabla(numeroDeTabla)
+			tabla = mostrarTabla(numeroDeTabla)
 			break
 		}
 
 	}
+	return tabla
 }

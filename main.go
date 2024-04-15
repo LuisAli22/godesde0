@@ -1,7 +1,10 @@
 package main
 
 import (
-	"github.com/LuisAli22/godesde0/ejercicios"
+	//	"fmt"
+
+	//	"github.com/LuisAli22/godesde0/ejercicios"
+	"github.com/LuisAli22/godesde0/files"
 	//"github.com/LuisAli22/godesde0/iteraciones"
 	//	"github.com/LuisAli22/godesde0/teclado"
 )
@@ -31,5 +34,7 @@ func main() {
 	fmt.Printf("Message: %s \n", message)*/
 	//teclado.IngresoNumeros()
 	//iteraciones.Iterar()
-	ejercicios.ObtenerNumeroYMostrarTabla()
+	//fmt.Println(ejercicios.ObtenerNumeroYMostrarTabla())
+	//files.SumaTabla()
+	files.LeoArchivo()
 }
