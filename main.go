@@ -4,9 +4,10 @@ import (
 	//	"fmt"
 
 	//	"github.com/LuisAli22/godesde0/ejercicios"
-	"github.com/LuisAli22/godesde0/files"
+	//"github.com/LuisAli22/godesde0/funciones"
 	//"github.com/LuisAli22/godesde0/iteraciones"
 	//	"github.com/LuisAli22/godesde0/teclado"
+	"github.com/LuisAli22/godesde0/arreglos_slices"
 )
 
 func main() {
@@ -36,5 +37,9 @@ func main() {
 	//iteraciones.Iterar()
 	//fmt.Println(ejercicios.ObtenerNumeroYMostrarTabla())
 	//files.SumaTabla()
-	files.LeoArchivo()
+	//files.LeoArchivo()
+	//funciones.Calculos()
+	//funciones.LlamarClosure()
+	//funciones.Exponencial(2)
+	arreglos_slices.Capacidad()
 }
