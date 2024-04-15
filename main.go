@@ -3,7 +3,7 @@ package main
 import (
 	//	"fmt"
 
-	"github.com/LuisAli22/godesde0/mapas"
+	"github.com/LuisAli22/godesde0/users"
 )
 
 func main() {
@@ -38,5 +38,6 @@ func main() {
 	//funciones.LlamarClosure()
 	//funciones.Exponencial(2)
 	//arreglos_slices.Capacidad()
-	mapas.MostrarMapas()
+	//mapas.MostrarMapas()
+	users.AltaUsuario()
 }
