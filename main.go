@@ -3,11 +3,7 @@ package main
 import (
 	//	"fmt"
 
-	//	"github.com/LuisAli22/godesde0/ejercicios"
-	//"github.com/LuisAli22/godesde0/funciones"
-	//"github.com/LuisAli22/godesde0/iteraciones"
-	//	"github.com/LuisAli22/godesde0/teclado"
-	"github.com/LuisAli22/godesde0/arreglos_slices"
+	"github.com/LuisAli22/godesde0/mapas"
 )
 
 func main() {
@@ -41,5 +37,6 @@ func main() {
 	//funciones.Calculos()
 	//funciones.LlamarClosure()
 	//funciones.Exponencial(2)
-	arreglos_slices.Capacidad()
+	//arreglos_slices.Capacidad()
+	mapas.MostrarMapas()
 }
