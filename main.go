@@ -1,10 +1,9 @@
 package main
 
 import (
-	"fmt"
-	"runtime"
-
 	"github.com/LuisAli22/godesde0/ejercicios"
+	//"github.com/LuisAli22/godesde0/iteraciones"
+	//	"github.com/LuisAli22/godesde0/teclado"
 )
 
 func main() {
@@ -12,7 +11,7 @@ func main() {
 	/*estado, texto := variables.ConviertoaTexto(1588)
 	fmt.Println(estado)
 	fmt.Println(texto)*/
-	if os := runtime.GOOS; os == "Linux." || os == "OS X." {
+	/*if os := runtime.GOOS; os == "Linux." || os == "OS X." {
 		fmt.Println("Esto no es windows, es ", os)
 	} else {
 		fmt.Println("Esto es windows")
@@ -29,5 +28,8 @@ func main() {
 	}
 	number, message := ejercicios.GetNumberInfo("50")
 	fmt.Printf("Number: %d \n", number)
-	fmt.Printf("Message: %s \n", message)
+	fmt.Printf("Message: %s \n", message)*/
+	//teclado.IngresoNumeros()
+	//iteraciones.Iterar()
+	ejercicios.ObtenerNumeroYMostrarTabla()
 }
