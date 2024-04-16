@@ -3,7 +3,8 @@ package main
 import (
 	//	"fmt"
 
-	"github.com/LuisAli22/godesde0/users"
+	e "github.com/LuisAli22/godesde0/ejer_interfaces"
+	"github.com/LuisAli22/godesde0/modelos"
 )
 
 func main() {
@@ -39,5 +40,9 @@ func main() {
 	//funciones.Exponencial(2)
 	//arreglos_slices.Capacidad()
 	//mapas.MostrarMapas()
-	users.AltaUsuario()
+	//users.AltaUsuario()
+	Pedro := new(modelos.Hombre)
+	e.HumanosRespirando(Pedro)
+	Maria := new(modelos.Mujer)
+	e.HumanosRespirando(Maria)
 }
