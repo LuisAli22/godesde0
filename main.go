@@ -3,8 +3,7 @@ package main
 import (
 	//	"fmt"
 
-	e "github.com/LuisAli22/godesde0/ejer_interfaces"
-	"github.com/LuisAli22/godesde0/modelos"
+	d "github.com/LuisAli22/godesde0/defer_panic"
 )
 
 func main() {
@@ -41,8 +40,10 @@ func main() {
 	//arreglos_slices.Capacidad()
 	//mapas.MostrarMapas()
 	//users.AltaUsuario()
-	Pedro := new(modelos.Hombre)
+	/*Pedro := new(modelos.Hombre)
 	e.HumanosRespirando(Pedro)
 	Maria := new(modelos.Mujer)
-	e.HumanosRespirando(Maria)
+	e.HumanosRespirando(Maria)*/
+	//d.VemosDefer()
+	d.EjemploPanic()
 }
